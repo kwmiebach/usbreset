@@ -10,9 +10,11 @@ The following sequence is adequate to execute the program:
 
    `cc usbreset.c -o usbreset`
 
-2. Set the permissions on the executable:
 
-   `chmod +x usbreset`
+2. Install:
+
+   cp ./usbreset /usr/local/bin/usbreset -i && sudo chmod +x /usr/local/bin/usbreset
+
 
 3. Get the Bus and Device ID of the USB device you want to reset:
 
